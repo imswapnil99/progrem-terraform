@@ -1,0 +1,10 @@
+variable "name" {
+    type = string
+    description = "(optional) describe your variable"
+}
+
+output "name" {
+    value = ""
+}
+
+resource
